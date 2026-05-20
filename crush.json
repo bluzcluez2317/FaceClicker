@@ -1,0 +1,29 @@
+{
+  "$schema": "https://charm.land/crush.json",
+  "providers": {
+    "bayleaf": {
+      "type": "openai-compat",
+      "base_url": "https://api.bayleaf.dev/v1",
+      "api_key": "${BAYLEAF_API_KEY}",
+      "models": [
+        {
+          "id": "openrouter:z-ai/glm-5.1",
+          "name": "Z.ai: GLM 5.1",
+          "context_window": 128000
+        }
+      ]
+    }
+  },
+  "models": {
+    "large": {
+      "model": "openrouter:z-ai/glm-5.1",
+      "provider": "bayleaf",
+      "max_tokens": 16384
+    },
+    "small": {
+      "model": "openrouter:z-ai/glm-5.1",
+      "provider": "bayleaf",
+      "max_tokens": 8192
+    }
+  }
+}
