@@ -6,5 +6,4 @@ Uses Phaser 3.80
 
 Art assets from the [Shape Characters](https://kenney.nl/assets/shape-characters) asset pack by [Kenney Assets](https://kenney.nl/), with gratitude.
 
-This game has the play toggle through different shapes, colors, eyes and facial expression
-the goal is match you shape to the already generated shape.
+This game has the play toggle through different shapes, colors, eyes and facial expressions. The goal is match your shape to the already generated shape.
